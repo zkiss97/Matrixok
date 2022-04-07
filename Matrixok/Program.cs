@@ -34,9 +34,10 @@ namespace Matrixok
 
             for (int i = 0; i < rows; i++)
             {
-                Console.WriteLine("{0}. sor elemei:", i + 1);
+                Console.WriteLine("\n{0}. sor elemei:", i + 1);
                 for (int j = 0; j < cols; j++)
                 {
+                    Console.WriteLine("{0} sor {1} elem", i+1, j+1);
                     matrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
