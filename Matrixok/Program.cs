@@ -50,8 +50,9 @@ namespace Matrixok
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    Console.WriteLine(matrix[i, j]);
+                    Console.Write("{0} ",matrix[i, j]);
                 }
+                Console.WriteLine("\n");
             }
         }
     }
